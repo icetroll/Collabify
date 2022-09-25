@@ -131,6 +131,7 @@ function handler(req, res) {
       )
     );
 
+    console.log('redirect');
     return res.redirect("/");
   }
 }
