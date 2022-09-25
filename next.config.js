@@ -7,6 +7,6 @@ module.exports = {
     publicRuntimeConfig: {
         apiUrl: process.env.NODE_ENV === 'development'
             ? 'http://localhost:3000/api' // development api
-            : 'https://collabify-oag5.vercel.app/api' // production api
+            : 'https://sparkling-souffle-243a8a.netlify.app/api' // production api
     }
 }
